@@ -132,6 +132,14 @@ class Build
     ].compact.join(':')
 
     configure_flags = [
+      '--with-cocoa',
+      '--with-ctags',
+      '--with-dbus',
+      '--with-imagemagik',
+      '--with-jansson',
+      '--with-no-frame-refocus',
+      '--with-multicolor-fonts',
+      '--with-xwidgets',
       '--with-ns',
       '--with-modules',
       '--enable-locallisppath=' \
